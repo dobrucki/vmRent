@@ -15,6 +15,7 @@ set(CMAKE_VERBOSE_MAKEFILE TRUE)
 #Source files here
 set(SOURCE_FILES
         source/model/Client.cpp
+        source/model/ClientType.cpp
         )
 
 add_executable(vmRent ${SOURCE_FILES})

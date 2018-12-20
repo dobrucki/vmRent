@@ -14,6 +14,7 @@ set(CMAKE_VERBOSE_MAKEFILE TRUE)
 
 #Source files here
 set(SOURCE_FILES
+        main.cpp
         source/model/Client.cpp
         source/model/ClientType.cpp
         source/model/ClientBuilder.cpp

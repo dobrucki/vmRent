@@ -8,9 +8,10 @@
 #include <vmRent/model/Client.hpp>
 
 class ClientBuilder{
+protected:
     std::shared_ptr<Client> client;
 public:
-    virtual std::shared_ptr<Client> getClient() = 0;
+    const std::shared_ptr<Client> &getClient() const;
     virtual void createClient() = 0;
 
     virtual void buildUuid() = 0;

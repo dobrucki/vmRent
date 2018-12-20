@@ -5,4 +5,6 @@
 #include <vmRent/model/ClientBuilder.hpp>
 
 
-
+const std::shared_ptr<Client> &ClientBuilder::getClient() const {
+    return client;
+}

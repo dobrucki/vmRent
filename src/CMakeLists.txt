@@ -21,7 +21,7 @@ set(SOURCE_FILES
         source/model/ClientBuilderDirector.cpp
         source/model/clientBuilders/NormalClientBuilder.cpp
         source/model/clientBuilders/TestClientBuilder.cpp
-        )
+        source/model/Address.cpp include/vmRent/model/Address.hpp)
 
 add_executable(vmRent ${SOURCE_FILES})
 

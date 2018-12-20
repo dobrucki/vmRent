@@ -11,9 +11,9 @@
 class ClientBuilderDirector{
     std::shared_ptr<ClientBuilder> clientBuilder;
 public:
-    void setClientBuilder();
+    void setClientBuilder(std::shared_ptr<ClientBuilder>& clientBuilder);
     void constructClient();
-    void getClient();
+    std::shared_ptr<Client> getClient();
 };
 
 #endif //VMRENT_BUILDER_HPP

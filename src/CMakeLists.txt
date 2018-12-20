@@ -16,6 +16,10 @@ set(CMAKE_VERBOSE_MAKEFILE TRUE)
 set(SOURCE_FILES
         source/model/Client.cpp
         source/model/ClientType.cpp
+        source/model/ClientBuilder.cpp
+        source/model/ClientBuilderDirector.cpp
+        source/model/clientBuilders/NormalClientBuilder.cpp
+        source/model/clientBuilders/TestClientBuilder.cpp
         )
 
 add_executable(vmRent ${SOURCE_FILES})
